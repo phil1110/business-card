@@ -1,5 +1,5 @@
 import React from "react";
-import portrait from "./assets/65dafc7d-43a7.webp";
+import portrait from "./assets/portrait-placeholder.png";
 
 export default function Info() {
   return (
