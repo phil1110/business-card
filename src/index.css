@@ -1,0 +1,193 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #23252c;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 780px;
+  width: 317px;
+  background: #1a1b21;
+  border-radius: 10px;
+}
+
+main {
+  height: 717px;
+}
+
+.info > div {
+  padding: 0 35px;
+}
+
+.info > img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.info-text > h2,
+p {
+  margin: 0;
+}
+
+.info-text--name {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-top: 21px !important;
+}
+
+.info-text--jobtitle {
+  color: #f3bf99;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 6.19px !important;
+}
+
+.info-text--website {
+  color: #f5f5f5;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+
+  margin-top: 8.81px !important;
+}
+
+.info-btns {
+  display: flex;
+  margin-top: 15px;
+}
+
+.info-btns--email-btn {
+  display: flex;
+  width: 100%;
+  height: 34px;
+
+  border-radius: 6px;
+  background-color: #d1d5db;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--gray-700, #374151);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+}
+
+.info-btns--email-btn--icon {
+  background-image: url("./assets/mail.svg");
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.about {
+  padding: 0 35px;
+}
+
+.about--title {
+  margin: 33px 0 0;
+
+  color: #f5f5f5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.about--text {
+  margin: 5px 0 0;
+
+  color: #dcdcdc;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.interests {
+  padding: 0 35px;
+}
+
+.interests--title {
+  margin: 20px 0 0;
+
+  color: #f5f5f5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.interests--text {
+  margin: 5px 0 0;
+
+  color: #dcdcdc;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+footer {
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+}
+
+.icons {
+  display: flex;
+  align-content: space-evenly;
+  padding: 19.5px 72.5px;
+}
+
+.icons > i {
+  width: 25px;
+  height: 25px;
+  fill: #918e9b;
+}
+
+.icons-twitter {
+  background-image: url("./assets/twitter-icon.svg");
+}
+
+.icons-facebook {
+  background-image: url("./assets/facebook-icon.svg");
+}
+
+.icons-instagram {
+  background-image: url("./assets/instagram-icon.svg");
+}
+
+.icons-github {
+  background-image: url("./assets/github-icon.svg");
+}
